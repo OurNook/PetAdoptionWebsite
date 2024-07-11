@@ -13,6 +13,7 @@ body {
   background-color: #001d37;
   padding-left: 16px;
   padding-right: 16px;
+  overflow: hidden;
 }
 
 .top-section {
@@ -21,6 +22,7 @@ body {
   padding-bottom: 139px;
   max-width: 1066px;
   margin: 0 auto;
+  position: relative;
 }
 
 .top-section h1 {
@@ -28,6 +30,11 @@ body {
   margin: 0;
   line-height: 97.3%;
   max-width: 525px;
+}
+
+.actual-top-content {
+  z-index: 5;
+  position: relative;
 }
 
 .intro-text {
@@ -46,10 +53,12 @@ body {
   font-size: 1.125rem;
   font-weight: 600;
   background-color: #475aff;
+  border: 2px solid #475aff;
   color: white;
   text-decoration: none;
   padding: 13px 25px;
   border-radius: 1000px;
+  margin: 0 10 0 0;
 }
 
 .our-btn--outline {
@@ -62,6 +71,11 @@ body {
   padding: 33px 25px;
 }
 
+.intro-feature h2 {
+  font-size: 1.5rem;
+  margin: 31px 0 3px 0;
+}
+
 .intro-feature p {
   margin: 0;
   font-size: 1.0625rem;
@@ -71,4 +85,28 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 16px;
+}
+
+.circle {
+  width: 617px;
+  height: 617px;
+  background: #d660ff;
+  opacity: 0.85;
+  border-radius: 50%;
+  filter: blur(9.375rem);
+  position: absolute;
+  top: 62;
+  right: -370;
+}
+
+.circle-2 {
+  width: 617px;
+  height: 617px;
+  background: #6079ff;
+  opacity: 0.85;
+  border-radius: 50%;
+  filter: blur(9.375rem);
+  position: absolute;
+  top: -365px;
+  left: -123px;
 }
