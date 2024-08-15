@@ -105,13 +105,13 @@ body {
   row-gap: 16px;
 }
 
-@media only screen and (min-width: 580px) {
+@media only screen and (min-width: 36.25em) {
   .intro-features {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 56.25em) {
   .intro-features {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
@@ -241,7 +241,7 @@ body {
   margin: 0;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 37.5em) {
   .top-section h1 {
     font-size: 6.25rem;
   }
@@ -254,7 +254,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 37.5em) {
   .top-section h1 {
     font-size: 6.25rem;
   }
